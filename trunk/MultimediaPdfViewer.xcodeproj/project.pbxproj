@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17744229146D8CF500BD594E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17744228146D8CF500BD594E /* UIKit.framework */; };
+		1774422B146D8CF500BD594E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1774422A146D8CF500BD594E /* Foundation.framework */; };
+		1774422D146D8CF500BD594E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1774422C146D8CF500BD594E /* CoreGraphics.framework */; };
+		17744233146D8CF500BD594E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17744231146D8CF500BD594E /* InfoPlist.strings */; };
+		17744235146D8CF600BD594E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17744234146D8CF600BD594E /* main.m */; };
+		17744239146D8CF600BD594E /* MultimediaPdfViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17744238146D8CF600BD594E /* MultimediaPdfViewerAppDelegate.m */; };
+		1774423D146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 1774423C146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPhone.m */; };
+		17744240146D8CF600BD594E /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1774423E146D8CF600BD594E /* MainWindow_iPhone.xib */; };
+		17744244146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 17744243146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPad.m */; };
+		17744247146D8CF600BD594E /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17744245146D8CF600BD594E /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17744224146D8CF500BD594E /* MultimediaPdfViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultimediaPdfViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17744228146D8CF500BD594E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1774422A146D8CF500BD594E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1774422C146D8CF500BD594E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17744230146D8CF500BD594E /* MultimediaPdfViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultimediaPdfViewer-Info.plist"; sourceTree = "<group>"; };
+		17744232146D8CF500BD594E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17744234146D8CF600BD594E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17744236146D8CF600BD594E /* MultimediaPdfViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultimediaPdfViewer-Prefix.pch"; sourceTree = "<group>"; };
+		17744237146D8CF600BD594E /* MultimediaPdfViewerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultimediaPdfViewerAppDelegate.h; sourceTree = "<group>"; };
+		17744238146D8CF600BD594E /* MultimediaPdfViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultimediaPdfViewerAppDelegate.m; sourceTree = "<group>"; };
+		1774423B146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultimediaPdfViewerAppDelegate_iPhone.h; path = iPhone/MultimediaPdfViewerAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		1774423C146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MultimediaPdfViewerAppDelegate_iPhone.m; path = iPhone/MultimediaPdfViewerAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		1774423F146D8CF600BD594E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		17744242146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultimediaPdfViewerAppDelegate_iPad.h; path = iPad/MultimediaPdfViewerAppDelegate_iPad.h; sourceTree = "<group>"; };
+		17744243146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MultimediaPdfViewerAppDelegate_iPad.m; path = iPad/MultimediaPdfViewerAppDelegate_iPad.m; sourceTree = "<group>"; };
+		17744246146D8CF600BD594E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17744221146D8CF500BD594E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17744229146D8CF500BD594E /* UIKit.framework in Frameworks */,
+				1774422B146D8CF500BD594E /* Foundation.framework in Frameworks */,
+				1774422D146D8CF500BD594E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17744219146D8CF500BD594E = {
+			isa = PBXGroup;
+			children = (
+				1774422E146D8CF500BD594E /* MultimediaPdfViewer */,
+				17744227146D8CF500BD594E /* Frameworks */,
+				17744225146D8CF500BD594E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17744225146D8CF500BD594E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17744224146D8CF500BD594E /* MultimediaPdfViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17744227146D8CF500BD594E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17744228146D8CF500BD594E /* UIKit.framework */,
+				1774422A146D8CF500BD594E /* Foundation.framework */,
+				1774422C146D8CF500BD594E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1774422E146D8CF500BD594E /* MultimediaPdfViewer */ = {
+			isa = PBXGroup;
+			children = (
+				17744237146D8CF600BD594E /* MultimediaPdfViewerAppDelegate.h */,
+				17744238146D8CF600BD594E /* MultimediaPdfViewerAppDelegate.m */,
+				1774423A146D8CF600BD594E /* iPhone */,
+				17744241146D8CF600BD594E /* iPad */,
+				1774422F146D8CF500BD594E /* Supporting Files */,
+			);
+			path = MultimediaPdfViewer;
+			sourceTree = "<group>";
+		};
+		1774422F146D8CF500BD594E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17744230146D8CF500BD594E /* MultimediaPdfViewer-Info.plist */,
+				17744231146D8CF500BD594E /* InfoPlist.strings */,
+				17744234146D8CF600BD594E /* main.m */,
+				17744236146D8CF600BD594E /* MultimediaPdfViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1774423A146D8CF600BD594E /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				1774423B146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPhone.h */,
+				1774423C146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPhone.m */,
+				1774423E146D8CF600BD594E /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		17744241146D8CF600BD594E /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				17744242146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPad.h */,
+				17744243146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPad.m */,
+				17744245146D8CF600BD594E /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17744223146D8CF500BD594E /* MultimediaPdfViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1774424A146D8CF600BD594E /* Build configuration list for PBXNativeTarget "MultimediaPdfViewer" */;
+			buildPhases = (
+				17744220146D8CF500BD594E /* Sources */,
+				17744221146D8CF500BD594E /* Frameworks */,
+				17744222146D8CF500BD594E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultimediaPdfViewer;
+			productName = MultimediaPdfViewer;
+			productReference = 17744224146D8CF500BD594E /* MultimediaPdfViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1774421B146D8CF500BD594E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "sayan1886@gmail.com";
+			};
+			buildConfigurationList = 1774421E146D8CF500BD594E /* Build configuration list for PBXProject "MultimediaPdfViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17744219146D8CF500BD594E;
+			productRefGroup = 17744225146D8CF500BD594E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17744223146D8CF500BD594E /* MultimediaPdfViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17744222146D8CF500BD594E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17744233146D8CF500BD594E /* InfoPlist.strings in Resources */,
+				17744240146D8CF600BD594E /* MainWindow_iPhone.xib in Resources */,
+				17744247146D8CF600BD594E /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17744220146D8CF500BD594E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17744235146D8CF600BD594E /* main.m in Sources */,
+				17744239146D8CF600BD594E /* MultimediaPdfViewerAppDelegate.m in Sources */,
+				1774423D146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPhone.m in Sources */,
+				17744244146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17744231146D8CF500BD594E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17744232146D8CF500BD594E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1774423E146D8CF600BD594E /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1774423F146D8CF600BD594E /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		17744245146D8CF600BD594E /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17744246146D8CF600BD594E /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17744248146D8CF600BD594E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17744249146D8CF600BD594E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1774424B146D8CF600BD594E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultimediaPdfViewer/MultimediaPdfViewer-Prefix.pch";
+				INFOPLIST_FILE = "MultimediaPdfViewer/MultimediaPdfViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1774424C146D8CF600BD594E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultimediaPdfViewer/MultimediaPdfViewer-Prefix.pch";
+				INFOPLIST_FILE = "MultimediaPdfViewer/MultimediaPdfViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1774421E146D8CF500BD594E /* Build configuration list for PBXProject "MultimediaPdfViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17744248146D8CF600BD594E /* Debug */,
+				17744249146D8CF600BD594E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1774424A146D8CF600BD594E /* Build configuration list for PBXNativeTarget "MultimediaPdfViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1774424B146D8CF600BD594E /* Debug */,
+				1774424C146D8CF600BD594E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1774421B146D8CF500BD594E /* Project object */;
+}
