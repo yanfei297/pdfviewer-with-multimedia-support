@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MultimediaPdfViewerAppDelegate : NSObject <UIApplicationDelegate>
+@interface MultimediaPdfViewerAppDelegate : NSObject <UIApplicationDelegate>{
+	UINavigationController *navigationController;
+}
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic,retain) 	UINavigationController *navigationController;
 
 @end
