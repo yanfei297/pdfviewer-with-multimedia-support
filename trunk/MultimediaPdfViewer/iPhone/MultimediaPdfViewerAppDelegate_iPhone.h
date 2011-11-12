@@ -7,7 +7,12 @@
 //
 
 #import "MultimediaPdfViewerAppDelegate.h"
+#import "PDFViewConrtroller_iPhone.h"
 
-@interface MultimediaPdfViewerAppDelegate_iPhone : MultimediaPdfViewerAppDelegate
+@interface MultimediaPdfViewerAppDelegate_iPhone : MultimediaPdfViewerAppDelegate {
+	PDFViewConrtroller_iPhone *viewController;
+}
+
+@property (nonatomic, retain) IBOutlet PDFViewConrtroller_iPhone *viewController;
 
 @end

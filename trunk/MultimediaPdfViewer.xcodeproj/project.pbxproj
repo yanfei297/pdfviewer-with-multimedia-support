@@ -17,9 +17,8 @@
 		17744240146D8CF600BD594E /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1774423E146D8CF600BD594E /* MainWindow_iPhone.xib */; };
 		17744244146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 17744243146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPad.m */; };
 		17744247146D8CF600BD594E /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17744245146D8CF600BD594E /* MainWindow_iPad.xib */; };
-		17C08FCC146E85BB0068E0F8 /* PDFViewConrtroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C08FCA146E85BB0068E0F8 /* PDFViewConrtroller.m */; };
-		17C08FCD146E85BB0068E0F8 /* PDFViewConrtroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17C08FCB146E85BB0068E0F8 /* PDFViewConrtroller.xib */; };
-		17C08FD2146E89360068E0F8 /* PDFTollBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C08FD1146E89360068E0F8 /* PDFTollBar.m */; };
+		17C08FCC146E85BB0068E0F8 /* PDFViewConrtroller_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C08FCA146E85BB0068E0F8 /* PDFViewConrtroller_iPhone.m */; };
+		17C08FCD146E85BB0068E0F8 /* PDFViewConrtroller_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17C08FCB146E85BB0068E0F8 /* PDFViewConrtroller_iPhone.xib */; };
 		17C0901B146E8D1E0068E0F8 /* blackslider.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C08FD4146E8D1E0068E0F8 /* blackslider.png */; };
 		17C0901C146E8D1E0068E0F8 /* bookmark_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C08FD5146E8D1E0068E0F8 /* bookmark_add.png */; };
 		17C0901D146E8D1E0068E0F8 /* bookmark_add_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C08FD6146E8D1E0068E0F8 /* bookmark_add_phone.png */; };
@@ -90,6 +89,14 @@
 		17C0905F146E8D1E0068E0F8 /* zoomUnlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C09018146E8D1E0068E0F8 /* zoomUnlock.png */; };
 		17C09060146E8D1E0068E0F8 /* zoomUnlock_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C09019146E8D1E0068E0F8 /* zoomUnlock_phone.png */; };
 		17C09061146E8D1E0068E0F8 /* zoomUnlock_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C0901A146E8D1E0068E0F8 /* zoomUnlock_phone@2x.png */; };
+		17C09069146E937F0068E0F8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C09066146E937A0068E0F8 /* AVFoundation.framework */; };
+		17C0906A146E937F0068E0F8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C09067146E937C0068E0F8 /* MediaPlayer.framework */; };
+		17C0906B146E937F0068E0F8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C09068146E937E0068E0F8 /* QuartzCore.framework */; };
+		17C0906F146E93A40068E0F8 /* UITools.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0906E146E93A40068E0F8 /* UITools.m */; };
+		17C09095146EA6A00068E0F8 /* ThumbnailScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0908F146EA6A00068E0F8 /* ThumbnailScrollView.m */; };
+		17C09096146EA6A00068E0F8 /* ThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C09091146EA6A00068E0F8 /* ThumbnailView.m */; };
+		17C09097146EA6A00068E0F8 /* PDFToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C09094146EA6A00068E0F8 /* PDFToolBar.m */; };
+		17C090BF146EDB620068E0F8 /* PDFDocumentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C090BE146EDB620068E0F8 /* PDFDocumentManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,11 +117,9 @@
 		17744243146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MultimediaPdfViewerAppDelegate_iPad.m; path = iPad/MultimediaPdfViewerAppDelegate_iPad.m; sourceTree = "<group>"; };
 		17744246146D8CF600BD594E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		17C08FC3146E84910068E0F8 /* constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constant.h; sourceTree = "<group>"; };
-		17C08FC9146E85BB0068E0F8 /* PDFViewConrtroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFViewConrtroller.h; path = iPhone/ViewController/PDFViewConrtroller.h; sourceTree = "<group>"; };
-		17C08FCA146E85BB0068E0F8 /* PDFViewConrtroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDFViewConrtroller.m; path = iPhone/ViewController/PDFViewConrtroller.m; sourceTree = "<group>"; };
-		17C08FCB146E85BB0068E0F8 /* PDFViewConrtroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PDFViewConrtroller.xib; path = iPhone/ViewController/PDFViewConrtroller.xib; sourceTree = "<group>"; };
-		17C08FD0146E89360068E0F8 /* PDFTollBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFTollBar.h; sourceTree = "<group>"; };
-		17C08FD1146E89360068E0F8 /* PDFTollBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFTollBar.m; sourceTree = "<group>"; };
+		17C08FC9146E85BB0068E0F8 /* PDFViewConrtroller_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFViewConrtroller_iPhone.h; path = iPhone/ViewController/PDFViewConrtroller_iPhone.h; sourceTree = "<group>"; };
+		17C08FCA146E85BB0068E0F8 /* PDFViewConrtroller_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDFViewConrtroller_iPhone.m; path = iPhone/ViewController/PDFViewConrtroller_iPhone.m; sourceTree = "<group>"; };
+		17C08FCB146E85BB0068E0F8 /* PDFViewConrtroller_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PDFViewConrtroller_iPhone.xib; path = iPhone/ViewController/PDFViewConrtroller_iPhone.xib; sourceTree = "<group>"; };
 		17C08FD4146E8D1E0068E0F8 /* blackslider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackslider.png; sourceTree = "<group>"; };
 		17C08FD5146E8D1E0068E0F8 /* bookmark_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark_add.png; sourceTree = "<group>"; };
 		17C08FD6146E8D1E0068E0F8 /* bookmark_add_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark_add_phone.png; sourceTree = "<group>"; };
@@ -185,6 +190,19 @@
 		17C09018146E8D1E0068E0F8 /* zoomUnlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoomUnlock.png; sourceTree = "<group>"; };
 		17C09019146E8D1E0068E0F8 /* zoomUnlock_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoomUnlock_phone.png; sourceTree = "<group>"; };
 		17C0901A146E8D1E0068E0F8 /* zoomUnlock_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zoomUnlock_phone@2x.png"; sourceTree = "<group>"; };
+		17C09066146E937A0068E0F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		17C09067146E937C0068E0F8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		17C09068146E937E0068E0F8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		17C0906D146E93A40068E0F8 /* UITools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITools.h; sourceTree = "<group>"; };
+		17C0906E146E93A40068E0F8 /* UITools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITools.m; sourceTree = "<group>"; };
+		17C0908E146EA6A00068E0F8 /* ThumbnailScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailScrollView.h; sourceTree = "<group>"; };
+		17C0908F146EA6A00068E0F8 /* ThumbnailScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailScrollView.m; sourceTree = "<group>"; };
+		17C09090146EA6A00068E0F8 /* ThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailView.h; sourceTree = "<group>"; };
+		17C09091146EA6A00068E0F8 /* ThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailView.m; sourceTree = "<group>"; };
+		17C09093146EA6A00068E0F8 /* PDFToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFToolBar.h; sourceTree = "<group>"; };
+		17C09094146EA6A00068E0F8 /* PDFToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFToolBar.m; sourceTree = "<group>"; };
+		17C090BD146EDB620068E0F8 /* PDFDocumentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFDocumentManager.h; sourceTree = "<group>"; };
+		17C090BE146EDB620068E0F8 /* PDFDocumentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFDocumentManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +210,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C09069146E937F0068E0F8 /* AVFoundation.framework in Frameworks */,
+				17C0906A146E937F0068E0F8 /* MediaPlayer.framework in Frameworks */,
+				17C0906B146E937F0068E0F8 /* QuartzCore.framework in Frameworks */,
 				17744229146D8CF500BD594E /* UIKit.framework in Frameworks */,
 				1774422B146D8CF500BD594E /* Foundation.framework in Frameworks */,
 				1774422D146D8CF500BD594E /* CoreGraphics.framework in Frameworks */,
@@ -204,6 +225,9 @@
 		17744219146D8CF500BD594E = {
 			isa = PBXGroup;
 			children = (
+				17C09066146E937A0068E0F8 /* AVFoundation.framework */,
+				17C09067146E937C0068E0F8 /* MediaPlayer.framework */,
+				17C09068146E937E0068E0F8 /* QuartzCore.framework */,
 				17C08FD3146E8D1E0068E0F8 /* MultimediaPdfViewer_images */,
 				1774422E146D8CF500BD594E /* MultimediaPdfViewer */,
 				17744227146D8CF500BD594E /* Frameworks */,
@@ -260,9 +284,9 @@
 				1774423B146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPhone.h */,
 				1774423C146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPhone.m */,
 				1774423E146D8CF600BD594E /* MainWindow_iPhone.xib */,
-				17C08FC9146E85BB0068E0F8 /* PDFViewConrtroller.h */,
-				17C08FCA146E85BB0068E0F8 /* PDFViewConrtroller.m */,
-				17C08FCB146E85BB0068E0F8 /* PDFViewConrtroller.xib */,
+				17C08FC9146E85BB0068E0F8 /* PDFViewConrtroller_iPhone.h */,
+				17C08FCA146E85BB0068E0F8 /* PDFViewConrtroller_iPhone.m */,
+				17C08FCB146E85BB0068E0F8 /* PDFViewConrtroller_iPhone.xib */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -288,6 +312,8 @@
 		17C08FCE146E89030068E0F8 /* shared */ = {
 			isa = PBXGroup;
 			children = (
+				17C090B8146EDA580068E0F8 /* pdf */,
+				17C0906C146E93A40068E0F8 /* tools */,
 				17C08FCF146E89030068E0F8 /* views */,
 			);
 			path = shared;
@@ -296,8 +322,8 @@
 		17C08FCF146E89030068E0F8 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				17C08FD0146E89360068E0F8 /* PDFTollBar.h */,
-				17C08FD1146E89360068E0F8 /* PDFTollBar.m */,
+				17C0908D146EA6A00068E0F8 /* ThumbnailSlider */,
+				17C09092146EA6A00068E0F8 /* toolbar */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -379,6 +405,44 @@
 			path = MultimediaPdfViewer_images;
 			sourceTree = "<group>";
 		};
+		17C0906C146E93A40068E0F8 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				17C0906D146E93A40068E0F8 /* UITools.h */,
+				17C0906E146E93A40068E0F8 /* UITools.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		17C0908D146EA6A00068E0F8 /* ThumbnailSlider */ = {
+			isa = PBXGroup;
+			children = (
+				17C0908E146EA6A00068E0F8 /* ThumbnailScrollView.h */,
+				17C0908F146EA6A00068E0F8 /* ThumbnailScrollView.m */,
+				17C09090146EA6A00068E0F8 /* ThumbnailView.h */,
+				17C09091146EA6A00068E0F8 /* ThumbnailView.m */,
+			);
+			path = ThumbnailSlider;
+			sourceTree = "<group>";
+		};
+		17C09092146EA6A00068E0F8 /* toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				17C09093146EA6A00068E0F8 /* PDFToolBar.h */,
+				17C09094146EA6A00068E0F8 /* PDFToolBar.m */,
+			);
+			path = toolbar;
+			sourceTree = "<group>";
+		};
+		17C090B8146EDA580068E0F8 /* pdf */ = {
+			isa = PBXGroup;
+			children = (
+				17C090BD146EDB620068E0F8 /* PDFDocumentManager.h */,
+				17C090BE146EDB620068E0F8 /* PDFDocumentManager.m */,
+			);
+			path = pdf;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -432,7 +496,7 @@
 				17744233146D8CF500BD594E /* InfoPlist.strings in Resources */,
 				17744240146D8CF600BD594E /* MainWindow_iPhone.xib in Resources */,
 				17744247146D8CF600BD594E /* MainWindow_iPad.xib in Resources */,
-				17C08FCD146E85BB0068E0F8 /* PDFViewConrtroller.xib in Resources */,
+				17C08FCD146E85BB0068E0F8 /* PDFViewConrtroller_iPhone.xib in Resources */,
 				17C0901B146E8D1E0068E0F8 /* blackslider.png in Resources */,
 				17C0901C146E8D1E0068E0F8 /* bookmark_add.png in Resources */,
 				17C0901D146E8D1E0068E0F8 /* bookmark_add_phone.png in Resources */,
@@ -517,8 +581,12 @@
 				17744239146D8CF600BD594E /* MultimediaPdfViewerAppDelegate.m in Sources */,
 				1774423D146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPhone.m in Sources */,
 				17744244146D8CF600BD594E /* MultimediaPdfViewerAppDelegate_iPad.m in Sources */,
-				17C08FCC146E85BB0068E0F8 /* PDFViewConrtroller.m in Sources */,
-				17C08FD2146E89360068E0F8 /* PDFTollBar.m in Sources */,
+				17C08FCC146E85BB0068E0F8 /* PDFViewConrtroller_iPhone.m in Sources */,
+				17C0906F146E93A40068E0F8 /* UITools.m in Sources */,
+				17C09095146EA6A00068E0F8 /* ThumbnailScrollView.m in Sources */,
+				17C09096146EA6A00068E0F8 /* ThumbnailView.m in Sources */,
+				17C09097146EA6A00068E0F8 /* PDFToolBar.m in Sources */,
+				17C090BF146EDB620068E0F8 /* PDFDocumentManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
