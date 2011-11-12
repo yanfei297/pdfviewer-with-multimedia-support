@@ -7,10 +7,12 @@
 //
 
 #import "MultimediaPdfViewerAppDelegate.h"
+#import "constant.h"
 
 @implementation MultimediaPdfViewerAppDelegate
 
 @synthesize window = _window;
+@synthesize navigationController = _navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -61,6 +63,7 @@
 - (void)dealloc
 {
 	[_window release];
+	[_navigationController release];
     [super dealloc];
 }
 
