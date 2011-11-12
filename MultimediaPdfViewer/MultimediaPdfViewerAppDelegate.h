@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface MultimediaPdfViewerAppDelegate : NSObject <UIApplicationDelegate>{
-	UINavigationController *navigationController;
+		//UINavigationController *navigationController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic,retain) 	UINavigationController *navigationController;
+	//@property (nonatomic,retain) 	UINavigationController *navigationController;
 
 @end

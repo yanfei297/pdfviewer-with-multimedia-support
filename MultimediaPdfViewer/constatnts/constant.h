@@ -1,13 +1,12 @@
 //
 //  constant.h
-//  BigGameRegs
+//  MultimediaPdfViewer
 //
-//  Created by Sayan Chatterjee on 20/05/11.
-//  Copyright 2011 Sportmanregs LLC. All rights reserved.
+//  Created by Sayan Chatterjee on 12/11/11.
+//  Copyright 2011 sayan1886@gmail.com. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-//#import "UserSettings.h"
  
 
 //check for ios version
@@ -43,41 +42,14 @@ NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__); \
 
 #define RELEASE_SAFELY(__POINTER) { [__POINTER release]; __POINTER = nil; }
 
-//keys for Regulations
+// constant for tollbar height
 
-//#define kRegulationDetails @"regulation"
-//#define kHtmlFolderPath @"html"
-//#define kDbFilePath @"sqlite"
-//#define kDataBaseName @"dbname"
-//#define kPlistFilesPath @"plist"
-//#define kStatesDownloaded @"dlcount"
-//#define kProduct @"uaproduct"
+#define TOOLBAR_HEIGHT 44
 
-//keys for BigGameSettings
+#define BOTTOM_TOOLBAR_HEIGHT_PAD 204
+#define BOTTOM_TOOLBAR_HEIGHT 114
 
-//#define kTypeConfigarationMap @"map"
-//#define kTypeConfigarationApp  @"app"
-
-//#define kAnimalSelectionIndex @"animalselected"
-//#define kOverLaySelectionIndex @"overlayselected"
-//#define kAreaMapSeletionIndex @"areamapselected"
-//#define kSelectedState @"stateselected"
-
-//#define kSaveMapConfig @"savemap"
-//#define kSaveAppConfig @"saveapp"
-
-//keys for HuntColor
-
-//#define kHuntColor @"huntcolor"
-//#define kSelectedRow @"row"
-//#define kSelectedColor @"color"
-//#define kAllColors @"colors"
-
-//keys for HuntTitle
-
-//#define kHuntTitle @"hunttitle"
-//#define kTableContent @"tablecontent"
-//#define kTableTitle @"title"
-
+#define THUMBSIZE_PHONE CGSizeMake(50, 64);
+#define THUMBSIZE_PAD CGSizeMake(100, 124);
 
 

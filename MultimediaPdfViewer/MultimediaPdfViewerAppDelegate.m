@@ -12,11 +12,12 @@
 @implementation MultimediaPdfViewerAppDelegate
 
 @synthesize window = _window;
-@synthesize navigationController = _navigationController;
+	//@synthesize navigationController = _navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 	// Override point for customization after application launch.
+	
 	[self.window makeKeyAndVisible];
     return YES;
 }
@@ -63,7 +64,7 @@
 - (void)dealloc
 {
 	[_window release];
-	[_navigationController release];
+		//[_navigationController release];
     [super dealloc];
 }
 
